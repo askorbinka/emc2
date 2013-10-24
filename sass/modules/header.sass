@@ -1,23 +1,20 @@
 // *************************************
 //
-//   Menu
+//   Header
 //   
 //
 // *************************************
 
-nav
-  width: 100%
-  a
-    +transition-property(background-color)
-    +transition-duration(0.25s)
-    +transition-timing-function(ease-in-out)
-    padding: 10px 20px
-    display: inline-block
-    width: 100% \ 6
-    &:hover
-      background: $darkgrey
-      color: $white
-      text-decoration: none
+header
+  padding: 30px
+  background: $goldenrod
+  h1
+    float: left
+    margin-right: 30px
+  quote
+    margin-top: 15px
+    display: block
+
 
 // -------------------------------------
 //   Modifiers
@@ -43,4 +40,10 @@ nav
 
 // ----- Submodule ----- //
 
-// .module-submodule
+header article
+  display: none
+  p
+    margin: 5px 0
+    text-indent: 1rem
+
+  

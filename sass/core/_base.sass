@@ -21,6 +21,23 @@ body
 
 p
   font-size: rem($base-fontSize)
+  
+button, input[type="submit"]
+  +transition-property(background-color)
+  +transition-duration(0.15s)
+  +transition-timing-function(ease-in-out)
+  +border-radius(2px)
+  border: hidden
+  background: $lips
+  text-align: center
+  color: $white
+  height: 30px
+  padding: 5px 15px
+  font-size: 0.7rem
+  cursor: pointer
+  &:hover
+    background: $maroon
+    
 
 // -------------------------------------
 //   Inline Content
@@ -32,3 +49,4 @@ a
   &:hover,
   &:focus
     text-decoration: underline
+    color: $crimson

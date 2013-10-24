@@ -1,22 +1,12 @@
 /*
-Syntax error: Undefined mixin 'transition-property'.
-        on line 11 of /var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/645482/sass/modules/menu.sass, in `transition-property'
-        from line 11 of /var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/645482/sass/modules/menu.sass
+Syntax error: Undefined variable: "$white".
+        on line 9 of /var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/645482/sass/modules/table.sass
 
 Backtrace:
-/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/645482/sass/modules/menu.sass:11:in `transition-property'
-/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/645482/sass/modules/menu.sass:11
-/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
-/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
-/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
-/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/645482/sass/modules/table.sass:9
+/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/script/variable.rb:49:in `_perform'
+/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
+/var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
 /var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
 /var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
 /var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/lib/ruby/gems/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -84,4 +74,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'transition-property'.\A         on line 11 of /var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/645482/sass/modules/menu.sass, in `transition-property'\A         from line 11 of /var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/645482/sass/modules/menu.sass"; }
+  content: "Syntax error: Undefined variable: \"$white\".\A         on line 9 of /var/lib/stickshift/525ac3994382ec57c600004b/app-root/data/645482/sass/modules/table.sass"; }

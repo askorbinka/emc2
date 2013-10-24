@@ -70,9 +70,9 @@ html {
 
 /* line 11, ../sass/core/_base.sass */
 body {
-  background: white;
-  color: #222222;
-  font-family: sans-serif;
+  background: #464e59;
+  color: #2b2c31;
+  font-family: Tahoma Arial Helvetica sans-serif;
   font-size: 100%;
   line-height: 1.5;
 }
@@ -82,69 +82,159 @@ p {
   font-size: 1rem;
 }
 
-/* line 29, ../sass/core/_base.sass */
+/* line 25, ../sass/core/_base.sass */
+button, input[type="submit"] {
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.15s;
+  -moz-transition-duration: 0.15s;
+  -o-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  border: hidden;
+  background: #892945;
+  text-align: center;
+  color: white;
+  height: 30px;
+  padding: 5px 15px;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+/* line 38, ../sass/core/_base.sass */
+button:hover, input[type="submit"]:hover {
+  background: #81131e;
+}
+
+/* line 46, ../sass/core/_base.sass */
 a {
-  color: #0053c9;
+  color: #e0ac34;
   text-decoration: none;
 }
-/* line 32, ../sass/core/_base.sass */
+/* line 49, ../sass/core/_base.sass */
 a:hover, a:focus {
   text-decoration: underline;
+  color: #dd3125;
 }
 
 /* line 12, ../sass/core/_content.sass */
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: sans-serif;
-  font-weight: bold;
+  font-family: Tahoma Arial Helvetica sans-serif;
 }
 
-/* line 17, ../sass/core/_content.sass */
+/* line 16, ../sass/core/_content.sass */
 h1, .c-h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: #81131e;
 }
 
 /* line 20, ../sass/core/_content.sass */
 h2, .c-h2 {
-  font-size: 2.1875rem;
+  font-size: 1.5rem;
+  color: white;
 }
 
-/* line 23, ../sass/core/_content.sass */
+/* line 24, ../sass/core/_content.sass */
 h3, .c-h3 {
-  font-size: 1.875rem;
+  font-size: 1.16667rem;
 }
 
-/* line 26, ../sass/core/_content.sass */
+/* line 27, ../sass/core/_content.sass */
 h4, .c-h4 {
   font-size: 1.5625rem;
 }
 
-/* line 29, ../sass/core/_content.sass */
+/* line 30, ../sass/core/_content.sass */
 h5, .c-h5 {
   font-size: 1.25rem;
 }
 
-/* line 32, ../sass/core/_content.sass */
+/* line 33, ../sass/core/_content.sass */
 h6, .c-h6 {
   font-size: 1.0rem;
 }
 
-/* line 39, ../sass/core/_content.sass */
+/* line 40, ../sass/core/_content.sass */
 .c-center {
   text-align: center;
 }
 
-/* line 42, ../sass/core/_content.sass */
+/* line 43, ../sass/core/_content.sass */
 .c-condense {
   font-size: 85%;
 }
 
-/* line 45, ../sass/core/_content.sass */
+/* line 46, ../sass/core/_content.sass */
 .c-lead {
   font-size: 125%;
 }
 
-/* line 48, ../sass/core/_content.sass */
+/* line 49, ../sass/core/_content.sass */
 .c-shout {
   text-transform: uppercase;
+}
+
+/* line 8, ../sass/modules/menu.sass */
+nav {
+  width: 100%;
+}
+/* line 10, ../sass/modules/menu.sass */
+nav a {
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  padding: 10px 20px;
+  display: inline-block;
+  width: 100% \ 6;
+}
+/* line 17, ../sass/modules/menu.sass */
+nav a:hover {
+  background: #2b2c31;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 8, ../sass/modules/header.sass */
+header {
+  padding: 30px;
+  background: #e0ac34;
+}
+/* line 11, ../sass/modules/header.sass */
+header h1 {
+  float: left;
+  margin-right: 30px;
+}
+/* line 14, ../sass/modules/header.sass */
+header quote {
+  margin-top: 15px;
+  display: block;
+}
+
+/* line 43, ../sass/modules/header.sass */
+header article {
+  display: none;
+}
+/* line 45, ../sass/modules/header.sass */
+header article p {
+  margin: 5px 0;
+  text-indent: 1rem;
 }
