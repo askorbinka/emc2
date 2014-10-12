@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>EMc2</title>
+    <link type="text/stylesheet" rel="stylesheet" href="stylesheets/application.css" />
+    <script src="javascripts/application.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 title="Home">EMc2</h1>
+      <quote>"Energy equals mass times the square of the speed of light"</quote>
+      <article>
+        <h2>About the app</h2>
+        <p>E=M*C^2 is an app which allow you to plan your time, produce experiments to increase your efficiency and to track your results, 
+          find best working strategies and log them as your personal data.</p>
+        <p>The work of the app starts when you create a plan: choose its type - for now (any 
+          period of the day or night, just a quick checklist), for a day (daily planning), week, month and other periods of time, 
+          what lets you to create not only tactical but also strategic planning.</p>
+        <p>Next thing - after creating the plan, you can work with the app in two modes: be online and use special tools for time count and track
+        your work to do and done (you should press the button "done"). While you make a plan, you can write an estimate time, which the app will use to count how many things you can do 
+        in definite period of time, so you could write a number of reserved hours for different tasks and rely on the app. It will tell you
+        if your estimate was exaggerated and you have no time for other things + it will suggest you to prioretize your tasks to do the most important things.
+        And all that just on the fly, you won't give it more than 5 minutes drinking tea.
+        </p>
+        <p>
+          The second mode is much simpler - you just create plan and it works just like a checklist - no reminds, no time counter etc., but you can still log your time.
+        </p>
+        <p>
+          There is a special department in the data grid for urgent unplanned tasks, which will be count too.
+        </p>
+        <p>
+          And the process of counting your productivity is this: the app looks at the difference between your estimation and logged time (or the tasks finalized and left unfinished + your logged time) and 
+          forms the stats for you, including:
+          <ul>
+            <li>difference in time = error coefficient</li>
+            <li>difference in planed volume of work and fact volume = max amount of tasks per different periods according to their difficuty (5-grade scale)</li>
+            <li>difference in amount of planned and unplanned tasks = time loss coefficient and con</li>
+            <li>tendency of your time spending</li>
+            <li>tendency of your productivity</li>
+            <li>and some other...</li>
+          </ul>
+          The app will not only generate the stats for you, but also let you to make some analysis of it: evaluate your productivity, time, errors, all that stuff. These data won't be used for computing, it's just for you 
+          to take seriously your time and life.
+        </p>
+        <p>
+          After the system generates yout stats, you can enable the auto-tips: when creating a new plan the app will limit the amount of tasks and time accroding to the general stats tend. So it will suggest you 
+          the best working strategy. 
+        </p>
+        <h3>Todo</h3>
+        <p>
+          What is best: common plan or divided by life spheres and able to be showed all in one sheet?</p>
+          ... to be continued
+          <form>
+            <label>If you want to share your idea, welcome:<input type="text"></label>
+            <input type="submit" value="Suggest">
+          </form>
+      </article> 
+    </header>
+    
+    <nav>
+        <a href="#">Now</a>
+        <a href="#">Week</a>
+        <a href="#">Month</a>
+        <a href="#">Year</a>
+        <a href="#">Effectivity report (stats)</a>
+        <a href="#">Log</a>
+      </nav>
+    
+    <content>
+      <button>Add new task</button>
+      <button>Create report</button>
+      <button>Analize your efficiency</button>
+      <div>
+        <h2>Current tasks</h2>
+        <table> <!-- http://jquery-datatables-editable.googlecode.com/svn/trunk/inline-edit.html -->
+          <thead>
+            <th>Priority</th>
+            <th>Name</th>
+            <th>Estimate</th>
+            <th>Timing</th>
+            <th>Progress</th>
+          </thead>
+          <tbody>
+            <td>1</td>
+            <td>Learn js</td>
+            <td>5w</td>
+            <td>3w 2d 5h 23m</td>
+            <td><button>Count your time</button></td>
+            <td><button>Stop</button><button>Finish</button></td> <!--Onclick stop open a window and ask procent-->
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h2>Monitoring of your productivity</h2>
+        <!--http://www.taffydb.com/-->
+      </div>
+    </content>
+  </body>
+</html>

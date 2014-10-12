@@ -184,6 +184,11 @@ h6, .c-h6 {
   text-transform: uppercase;
 }
 
+/* line 29, ../sass/core/_layout.sass */
+content {
+  padding: 30px;
+}
+
 /* line 8, ../sass/modules/menu.sass */
 nav {
   width: 100%;
