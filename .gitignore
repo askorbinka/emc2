@@ -1,2 +1,6 @@
 .c9
-.sass-cache
+.sass-cacheapps
+.applist
+Mnesia.nonode@nohost/
+apps/emc2/ebin
+deps

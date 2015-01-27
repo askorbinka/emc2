@@ -1,0 +1,9 @@
+{application, emc2,
+ [
+  {description, "EMC2 App"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [kernel, stdlib, n2o, kvs]},
+  {mod, { web_app, []}},
+  {env, []}
+ ]}.
