@@ -8,7 +8,7 @@ main() -> #dtl{ file = "index",
                                 { title, "EMC2" },
                                 { body,"Hello EMC2" },
                                 { list, "place table here" },
-                                { date, calendar:local_time() }
+                                { date, emc2_utils:iso_8601_fmt(calendar:local_time()) }
                             ]
                         }.
 
