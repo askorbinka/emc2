@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/ubuntu/workspace',
+5 verbose install   [ 'gulp',
+5 verbose install     'gulp-concat',
+5 verbose install     'gulp-postcss',
+5 verbose install     'gulp-uglify',
+5 verbose install     'gulp-util',
+5 verbose install     'css-next',
+5 verbose install     'gulp-notify' ] ]
+6 info preinstall emc2@1.0.0
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping gulp@^3.9.0 /home/ubuntu/workspace
+9 verbose already installed skipping gulp-concat@^2.5.2 /home/ubuntu/workspace
+10 verbose already installed skipping gulp-postcss@^5.1.8 /home/ubuntu/workspace
+11 verbose already installed skipping gulp-uglify@^1.2.0 /home/ubuntu/workspace
+12 verbose already installed skipping gulp-util@^3.0.5 /home/ubuntu/workspace
+13 verbose cache add [ 'css-next@1.5.2', null ]
+14 verbose cache add name=undefined spec="css-next@1.5.2" args=["css-next@1.5.2",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'css-next@1.5.2',
+15 verbose parsed url   path: 'css-next@1.5.2',
+15 verbose parsed url   href: 'css-next@1.5.2' }
+16 verbose already installed skipping gulp-notify@^2.2.0 /home/ubuntu/workspace
+17 verbose cache add name="css-next" spec="1.5.2" args=["css-next","1.5.2"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '1.5.2',
+18 verbose parsed url   path: '1.5.2',
+18 verbose parsed url   href: '1.5.2' }
+19 verbose addNamed [ 'css-next', '1.5.2' ]
+20 verbose addNamed [ '1.5.2', '1.5.2' ]
+21 silly lockFile 5c59b142-css-next-1-5-2 css-next@1.5.2
+22 verbose lock css-next@1.5.2 /home/ubuntu/.npm/5c59b142-css-next-1-5-2.lock
+23 verbose request where is /css-next
+24 verbose request registry https://registry.npmjs.org/
+25 verbose request id da8d256f8361ae69
+26 verbose url raw /css-next
+27 verbose url resolving [ 'https://registry.npmjs.org/', './css-next' ]
+28 verbose url resolved https://registry.npmjs.org/css-next
+29 verbose request where is https://registry.npmjs.org/css-next
+30 info trying registry request attempt 1 at 14:49:15
+31 http GET https://registry.npmjs.org/css-next
+32 http 404 https://registry.npmjs.org/css-next
+33 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+33 verbose headers   'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=0',
+33 verbose headers   'content-length': '51',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Mon, 08 Jun 2015 14:49:16 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   age: '0',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-lcy1134-LCY',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1433774955.650897,VS0,VE627' }
+34 silly registry.get cb [ 404,
+34 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+34 silly registry.get     'content-type': 'application/json',
+34 silly registry.get     'cache-control': 'max-age=0',
+34 silly registry.get     'content-length': '51',
+34 silly registry.get     'accept-ranges': 'bytes',
+34 silly registry.get     date: 'Mon, 08 Jun 2015 14:49:16 GMT',
+34 silly registry.get     via: '1.1 varnish',
+34 silly registry.get     age: '0',
+34 silly registry.get     connection: 'keep-alive',
+34 silly registry.get     'x-served-by': 'cache-lcy1134-LCY',
+34 silly registry.get     'x-cache': 'MISS',
+34 silly registry.get     'x-cache-hits': '0',
+34 silly registry.get     'x-timer': 'S1433774955.650897,VS0,VE627' } ]
+35 silly lockFile 5c59b142-css-next-1-5-2 css-next@1.5.2
+36 silly lockFile 5c59b142-css-next-1-5-2 css-next@1.5.2
+37 error 404 404 Not Found: css-next
+37 error 404
+37 error 404 'css-next' is not in the npm registry.
+37 error 404 You should bug the author to publish it
+37 error 404 It was specified as a dependency of 'emc2'
+37 error 404
+37 error 404 Note that you can also install from a
+37 error 404 tarball, folder, or http url, or git url.
+38 error System Linux 3.14.13-c9
+39 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install"
+40 error cwd /home/ubuntu/workspace
+41 error node -v v0.10.35
+42 error npm -v 1.4.28
+43 error code E404
+44 verbose exit [ 1, true ]

@@ -1,0 +1,37 @@
+{
+  "name": "emc2",
+  "version": "1.0.0",
+  "description": "chronolog",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-postcss": "^5.1.8",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.5",
+    "cssnext": "^1.5.2"
+  },
+  "devDependencies": {
+    "cssnext": "^1.5.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-postcss": "^5.1.8",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.5",
+    "notify-send": "^0.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/askorbinka/emc2.git"
+  },
+  "author": "askorbinka team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/askorbinka/emc2/issues"
+  },
+  "homepage": "https://github.com/askorbinka/emc2"
+}

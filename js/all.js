@@ -1,0 +1,2 @@
+var dreamlog=angular.module("dreamlog",[]);dreamlog.controller("record",function(r,o){r.date={today:new Date},r.records=[],r.addRecord=function(o,d){r.records.push(o)}});
+var dreamlog=angular.module("dreamlog",[]);dreamlog.controller("record",function(r,o){r.date={today:new Date},r.records=[],r.addRecord=function(o,d){r.records.push(o)}});
