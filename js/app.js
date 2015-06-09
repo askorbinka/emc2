@@ -1,14 +1,37 @@
-var dreamlog = angular.module('dreamlog', []);
-
-dreamlog.controller('record', function($scope, $compile) {
-    $scope.date = {
-        today: new Date()
-    }
+(function() {
+    var app = angular.module('logApp', [
+            'ngRoute'
+        ]); 
+        
+    app.config(function($routeProvider, $locationProvider) {
+        $routeProvider
+        
+            .when('/', {
+                templateUrl: 'views/home.html',
+                controller: 'homeCtrl'
+            })
+            
+            .when('/hig', {
+                templateUrl: 'views/hig.html',
+                controller: 'styleguideCtrl'
+            })
+            
+            .when('/front', {
+                templateUrl: 'views/front.html',
+                controller: 'frontendCtrl'
+            })
+            
+            .when('/backend', {
+                templateUrl: 'views/back.html',
+                controller: 'backendCtrl'
+            })
+            
+            .when('/analysis', {
+                templateUrl: 'views/analysis.html',
+                controller: 'analysisCtrl'
+            });
+            
+        $locationProvider.html5Mode(false);
+    });
     
-    $scope.records = [];
-    
-    $scope.addRecord = function(record, attrs) {
-        // $scope.record = {};
-        $scope.records.push(record);
-    }
-});
+})();
