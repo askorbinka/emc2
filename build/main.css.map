@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.css"],"names":[],"mappings":"AAGA;IACI,0BAAuB;IACvB,eAAa;CAChB","file":"main.css","sourcesContent":["$red: #00FF00;\n$blue: #411114;\n\nbody {\n    background-color: $red;\n    color: $blue;\n}"],"sourceRoot":"/source/"}

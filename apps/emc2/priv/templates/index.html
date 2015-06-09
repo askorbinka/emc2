@@ -1,30 +1,53 @@
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="//localhost:8000/static/synrc.css" type="text/css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<title>Chat</title>
-</head>
-<body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!--<link href="//localhost:8080/static/synrc.css" type="text/css" rel="stylesheet">-->
+        <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+        <title>{{title}}</title>
+    </head>
+    <body>
 
-{{body}}
+    <h1>{{body}}</h1>
 
-</br>
+    <table>
+            <thead>
+                <tr>
+                    <th>Дата</th>
+                    <th>Локация</th>
+                    <th>Активность</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="add-record">
+                    <td>{{date}}</td>
+                    <td><input type="text" placeholder="Локация"></td>
+                    <td><input type="text" placeholder=""></td>
+                    <td><button ng-click="addRecord(record)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>{{date}}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
 
-{{list}}
 
-<!--script>var transition = {pid: '', host: 'localhost', port:'8000'};</script-->
-<script>{{script}}</script>
-<script src='/n2o/protocols/bert.js'></script>
-<script src='/n2o/protocols/binary.js'></script>
-<script src='/n2o/protocols/client.js'></script>
-<script src='/n2o/protocols/nitrogen.js'></script>
-<script src='/n2o/bullet.js'></script>
-<script src='/n2o/utf8.js'></script>
-<script src='/n2o/template.js'></script>
-<script src='/n2o/n2o.js'></script>
-<script src='/n2o/validation.js'></script>
-<script src='https://synrc.com/hi.js'></script>
-<script>N2O_start();</script>
-</body>
+
+        <!--script>var transition = {pid: '', host: 'localhost', port:'8000'};</script-->
+        <script>{{script}}</script>
+        <script src='/n2o/protocols/bert.js'></script>
+        <script src='/n2o/protocols/binary.js'></script>
+        <script src='/n2o/protocols/client.js'></script>
+        <script src='/n2o/protocols/nitrogen.js'></script>
+        <script src='/n2o/bullet.js'></script>
+        <script src='/n2o/utf8.js'></script>
+        <script src='/n2o/template.js'></script>
+        <script src='/n2o/n2o.js'></script>
+        <script src='/n2o/validation.js'></script>
+        <script src='https://synrc.com/hi.js'></script>
+        <script>N2O_start();</script>
+    </body>
 </html>

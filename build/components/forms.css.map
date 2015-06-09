@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/forms.css"],"names":[],"mappings":"AACI;IACI,gBAAgB;CACnB","file":"components/forms.css","sourcesContent":["body {\n    input {\n        background: red;\n    }\n}"],"sourceRoot":"/source/"}
